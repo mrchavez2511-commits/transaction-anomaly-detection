@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Project-local files and generated outputs
+.idea/
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+notebooks/EDA.ipynb
+*.pkl
+*.joblib
